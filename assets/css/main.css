@@ -49,9 +49,10 @@ a:hover{
 	/*font-size: 18px;*/
 	/*text-transform: uppercase;*/
 }
+/*CONTENIDO*/
 #container{
 	width: 80%; /*necesita un ancho de referencia para usar el margin 0 auto*/
-	margin: 80px auto;
+	margin: 90px auto;
 }
 section{
 	/*width: 100%;*/
@@ -63,7 +64,7 @@ section{
 img{
 	max-width: 270px;
 	max-height: 160px;
-	border: 5px solid #7F7777;
+	border: 5px solid #575757;
 	margin-right: 10px;
 	
 }
@@ -73,13 +74,17 @@ img{
 	font-size: 20px;
 	/*background: #0A8EBF;*/
 	line-height: 20px;
+	margin: 5px;
 	font-weight: bold;
 }
+
 article{
 	display: inline-block;
 	width: 32%;
 	background: #ca3c25;
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
 }
 #text-content > p{
 	display: inline-flex;
